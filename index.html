@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="media-query.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+    <title>Login</title>
+</head>
+<body>
+    <main>
+        
+    <section >
+        <div id="img" name="img"></div>
+            <!--
+                Se colocar a imagem no css fica mais fácil usar como background
+            --> 
+            
+        
+        <div id="login" name="form">
+            <h1> Login</h1><br>
+            <P>Bem-vindo a sua página de Login.</P>
+            <form action="login.php" method="post" autocomplete="on">
+                <div class="campo">
+                    <span class="material-symbols-outlined">
+                        person
+                        </span>
+                    <input type="email" name="login" id="ilogin" placeholder=" Seu e-mail" autocomplete="email" required maxlength="30" >
+                    <label for="ilogin">Login</label><br>
+                    <span class="material-symbols-outlined">
+                        vpn_key
+                        </span>
+                    <input type="password" name="senha" type="isenha" placeholder=" Sua Senha" autocomplete="current-password" required minlength="8">
+                    <label for="isenha">Senha</label>
+                </div> 
+                <input type="submit" value="Enviar">
+                <a href="esqueci.html" class="botao">Esqueci a senha <span class="material-symbols-outlined" id="cartinha">
+                    mail
+                    </span></a>
+            </form>
+            
+        </div>
+    
+       
+
+    </section>
+   
+</main>    
+</body>
+</html>

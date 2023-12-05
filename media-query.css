@@ -1,0 +1,79 @@
+@charset "utf8";
+
+
+@media screen and (min-width: 768px) and (max-width:992px){
+    body{
+        background-image: linear-gradient(#49a09d, #5f2c82);
+    }
+    
+    section{
+       width: 700px;
+       height: 450px;
+       
+    }
+    section > div#img{
+        float: left;
+        width: 50%;
+        height: 100%;
+        background-position: center; 
+        border-radius: 20px 0px 0px 20px;
+        
+}
+    section > div#login{
+
+        float: right;
+        width: 50%;
+        padding: 20px;
+        font-size: 1em;
+    }
+    form > div.campo{
+        height: 75px;
+    }
+    div.campo > input{
+        background-color: white;
+        color: gray;
+        border-radius: 5px;
+        height: 25px;
+        transform: translateY(2px);
+       
+      }
+}
+
+    @media screen and (min-width:992px){
+        
+        body{
+            background-image: linear-gradient(#5f2c82, #49a09d);
+        }
+        section{
+           width: 800px;
+           height: 450px;
+            
+            margin: auto;
+        }
+        section > div#img{
+            float: right;
+            width: 50%;
+            height: 100%;
+            background-position: center; 
+            border-radius: 0px 20px 20px 0px;
+            
+    }
+        section > div#login{
+    
+            float: left;
+            width: 50%;
+            padding: 20px;
+            font-size: 1em;
+        }
+        form > div.campo{
+            height: 75px;
+        }
+        div.campo > input{
+            background-color: white;
+            color: gray;
+            border-radius: 5px;
+            height: 25px;
+            transform: translateY(2px);
+           
+          }
+    }
